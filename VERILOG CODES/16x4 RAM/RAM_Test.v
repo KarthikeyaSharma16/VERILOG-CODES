@@ -9,7 +9,7 @@ reg [3:0] Address;
 wire [3:0] Output;
 
 // Instantiate the Unit Under Test (UUT)
-Memory_Design uut 
+RAM uut 
 (.Data(Data),.RD(RD),.WR(WR),.Address(Address),.Output(Output));
 initial begin
 
